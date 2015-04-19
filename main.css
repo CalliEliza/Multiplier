@@ -1,0 +1,12 @@
+.button {
+  padding: .5em;
+  border: none;
+  background-color: #9dbfb2;
+  color: #fff;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+.value {
+  border: 1px solid #a16462;
+}
