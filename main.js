@@ -21,4 +21,6 @@ function solve() {
   
 }
 
-
+function reset() {
+    output.innerHTML = " ";
+}
