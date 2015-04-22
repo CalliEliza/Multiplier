@@ -7,9 +7,15 @@ function solve() {
   
   output.innerHTML = "";
   
-  for(i=0; i < 20; i++) {
-  
-    output.innerHTML += i * input + "<br/>";
+  for(i=1; i < 13; i++) {
+    for(j=1; j<13; j++) {
+        total = i*j;
+        total = " " + total;
+        if (total <10) { total = " " + total; }
+        output.innerHTML += total;
+    }
+      
+    output.innerHTML += total; /*i * input + "<br/>";*/
   
   }
   
